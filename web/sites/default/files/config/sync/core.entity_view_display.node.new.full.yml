@@ -1,0 +1,41 @@
+uuid: 970d4186-b6eb-45a0-8458-56d35507ebc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.new.body
+    - field.field.node.new.field_n
+    - node.type.new
+  module:
+    - text
+    - user
+id: node.new.full
+targetEntityType: node
+bundle: new
+mode: full
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_n:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true
