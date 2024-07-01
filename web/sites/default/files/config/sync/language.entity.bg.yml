@@ -1,0 +1,9 @@
+uuid: bcc1733f-6fcd-49a6-8eb1-8dcdd2c70f00
+langcode: en
+status: true
+dependencies: {  }
+id: bg
+label: Bulgarian
+direction: ltr
+weight: 2
+locked: false

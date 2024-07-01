@@ -1,0 +1,19 @@
+label: 'Търсене на съдържание'
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Търси
+          reset_button_label: Рестартирай
+      pager:
+        options:
+          tags:
+            previous: '‹ предишна'
+            next: 'следваща ›'
+      filters:
+        search_api_fulltext:
+          expose:
+            label: Търси
+  page_1:
+    display_title: Страница
